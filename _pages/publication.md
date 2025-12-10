@@ -1,51 +1,49 @@
 ---
 title: "Publications"
+layout: single
 permalink: /publications/
-layout: default
 author_profile: true
 ---
 
-<h1>Publications</h1>
+{% assign pubs = site.publications | sort: "date" | reverse %}
 
-<ol class="bibliography">
-{% assign pubs = site.publications | sort: 'year' | reverse %}
+<ol>
 {% for pub in pubs %}
   <li>
- {% for pub in pubs %}
-  <li style="margin-bottom: 1.2em;">
-    
     <!-- Title -->
-    {% if pub.title %}
-      <strong style="font-size: 1.1em;">{{ pub.title }}</strong><br>
-    {% endif %}
+    <p><strong>{{ pub.title }}</strong></p>
 
     <!-- Authors -->
     {% if pub.authors %}
-      <span style="color: #555;">{{ pub.authors }}</span><br>
+      <p>{{ pub.authors }}</p>
     {% endif %}
 
-    <!-- Venue + Year + DOI -->
-    {% if pub.venue or pub.year or pub.doi %}
-      <span>
-        {% if pub.venue %}<em>{{ pub.venue }}</em>{% endif %}
-        {% if pub.year %} {{ pub.year }}.{% endif %}
+    <!-- Venue + year + DOI or preprint URL -->
+    {% if pub.venue or pub.year or pub.doi or pub.paperurl %}
+      <p><em>
+        {% if pub.venue %}{{ pub.venue }}{% endif %}
+        {% if pub.year %} {{ pub.year }}{% endif %}
         {% if pub.doi %}
-          DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a>.
+          . DOI:
+          <a href="{{ pub.doi }}" target="_blank" rel="noopener">
+            {{ pub.doi }}
+          </a>
+        {% elsif pub.paperurl %}
+          . URL:
+          <a href="{{ pub.paperurl }}" target="_blank" rel="noopener">
+            {{ pub.paperurl }}
+          </a>
         {% endif %}
-      </span>
+      </em></p>
     {% endif %}
 
-    <!-- BibTeX Dropdown -->
+    <!-- Optional BibTeX dropdown -->
     {% if pub.bibtex %}
-      <details style="margin-top: .3em;">
+      <details>
         <summary>BibTeX</summary>
         <pre><code>{{ pub.bibtex | escape }}</code></pre>
       </details>
     {% endif %}
-
-  </li>
-{% endfor %}
-
   </li>
 {% endfor %}
 </ol>
