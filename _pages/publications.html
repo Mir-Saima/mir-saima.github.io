@@ -1,32 +1,35 @@
 ---
-title: "Publications"
-permalink: /publications/
 layout: default
-author_profile: true
 ---
 
-<h1>Publications</h1>
+<article class="publication">
 
-<ol class="bibliography">
-{% assign pubs = site.publications | sort: 'year' | reverse %}
-{% for pub in pubs %}
-  <li>
-    <p>
-      {% if pub.authors %}{{ pub.authors }}.{% endif %}
-      {% if pub.title %} <strong>{{ pub.title }}</strong>.{% endif %}
-      {% if pub.venue %} <em>{{ pub.venue }}</em>.{% endif %}
-      {% if pub.year %} {{ pub.year }}.{% endif %}
-      {% if pub.doi %}
-        DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a>.
-      {% endif %}
-    </p>
+  <h1>{{ page.title }}</h1>
 
-    {% if pub.bibtex %}
-      <details>
-        <summary>BibTeX</summary>
-        <pre><code>{{ pub.bibtex | escape }}</code></pre>
-      </details>
-    {% endif %}
-  </li>
-{% endfor %}
-</ol>
+  {% if page.authors %}
+    <p><strong>Authors:</strong> {{ page.authors }}</p>
+  {% endif %}
+
+  {% if page.venue %}
+    <p><strong>Journal / Conference / Preprint:</strong> <em>{{ page.venue }}</em></p>
+  {% endif %}
+
+  {% if page.year %}
+    <p><strong>Year:</strong> {{ page.year }}</p>
+  {% endif %}
+
+  {% if page.doi %}
+    <p><strong>DOI:</strong> <a href="{{ page.doi }}">{{ page.doi }}</a></p>
+  {% endif %}
+
+  {% if page.abstract %}
+    <h3>Abstract</h3>
+    <p>{{ page.abstract }}</p>
+  {% endif %}
+
+  {% if page.bibtex %}
+  <h3>BibTeX</h3>
+  <pre><code>{{ page.bibtex | escape }}</code></pre>
+  {% endif %}
+
+</article>
