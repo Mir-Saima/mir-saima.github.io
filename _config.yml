@@ -27,7 +27,7 @@ author:
   name             : "Saima Gaffar"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : #"Earth"
+  #location         : #"Earth"
   employer         : "Jeonbuk National University"
   uri              : # URL
   email            : "saimagaffar@jbnu.ac.kr" 
@@ -42,8 +42,8 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Saima+Gaffar"
-  researchgate     : https://www.researchgate.net/profile/Saima-Gaffar?ev=hdr_xprf
-  scopus           : https://www.scopus.com/authid/detail.uri?authorId=57221495577&origin=recordpage
+  researchgate     : "https://www.researchgate.net/profile/Saima-Gaffar?ev=hdr_xprf"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57221495577&origin=recordpage"
   zotero           : # URL
 
 
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/Mir-Saima"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -359,6 +359,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
 
