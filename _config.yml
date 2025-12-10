@@ -27,8 +27,8 @@ author:
   name             : "Saima Gaffar"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : #"Earth"
+  employer         : "Jeonbuk National University"
   uri              : # URL
   email            : "saimagaffar@jbnu.ac.kr" 
 
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0009-0009-2252-1935"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Saima+Gaffar"
   researchgate     : https://www.researchgate.net/profile/Saima-Gaffar?ev=hdr_xprf
   scopus           : https://www.scopus.com/authid/detail.uri?authorId=57221495577&origin=recordpage
   zotero           : # URL
@@ -359,5 +359,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
