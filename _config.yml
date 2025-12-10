@@ -225,7 +225,8 @@ collections:
     permalink: /:collection/:path/
   publications:
     output: true
-    permalink: /:collection/:path/
+    permalink: /publication/:path/
+    source: "_publications"
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -358,6 +359,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
 
