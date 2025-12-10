@@ -1,10 +1,17 @@
-title: "IF-AIP: a machine learning method for the identification of anti-inflammatory peptides using multi-feature fusion strategy"
-authors: "Saima Gaffar, Mir tanveerul Hassan, Hilal Tayara, Kil To Chong"
-journal: "computers in biology and medicine"
-year: 2025
-doi: "https://doi.org/10.1101/xxxx"
-layout: publication
+---
+title: "Stack-AAgP: Computational prediction and interpretation of anti-angiogenic peptides using a meta-learning framework"
+authors: "Saima Gaffar, Hilal Tayara, Kil To Chong"
+venue: "Computers in Biology and Medicine"
+year: 2024
+doi: "https://doi.org/10.1016/j.compbiomed.2024.108438"
+bibtex: |
+  @article{gaffar2024stack,
+  title={Stack-AAgP: Computational prediction and interpretation of anti-angiogenic peptides using a meta-learning framework},
+  author={Gaffar, Saima and Tayara, Hilal and Chong, Kil To},
+  journal={Computers in Biology and Medicine},
+  volume={174},
+  pages={108438},
+  year={2024},
+  publisher={Elsevier}
 }
-
-
-
+---
