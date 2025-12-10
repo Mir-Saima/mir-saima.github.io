@@ -1,35 +1,33 @@
 ---
-layout: default
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
 ---
 
-<article class="publication">
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
 
-  <h1>{{ page.title }}</h1>
+{% include base_path %}
 
-  {% if page.authors %}
-    <p><strong>Authors:</strong> {{ page.authors }}</p>
-  {% endif %}
-
-  {% if page.venue %}
-    <p><strong>Journal / Conference / Preprint:</strong> <em>{{ page.venue }}</em></p>
-  {% endif %}
-
-  {% if page.year %}
-    <p><strong>Year:</strong> {{ page.year }}</p>
-  {% endif %}
-
-  {% if page.doi %}
-    <p><strong>DOI:</strong> <a href="{{ page.doi }}">{{ page.doi }}</a></p>
-  {% endif %}
-
-  {% if page.abstract %}
-    <h3>Abstract</h3>
-    <p>{{ page.abstract }}</p>
-  {% endif %}
-
-  {% if page.bibtex %}
-  <h3>BibTeX</h3>
-  <pre><code>{{ page.bibtex | escape }}</code></pre>
-  {% endif %}
-
-</article>
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
