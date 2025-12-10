@@ -1,17 +1,19 @@
 ---
-title: "IF-AIP: A machine learning method for the identification of anti-inflammatory peptides"
-authors: "Saima Gaffar, Mir Tanveerul Hassan, ..."
-venue: "Computers in Biology and Medicine"
-year: 2024
-doi: "https://doi.org/10.1016/j.compbiomed.2023.107724"
+title: "Hybrid image fusion method based on discrete wavelet transform (DWT), principal component analysis (PCA) and guided filter"
+authors: "A Noor, S Gaffar, MT Hassan, M Junaid, A Mir, A Kaur"
+venue: "2020 First International Conference of Smart Systems and Emerging"
+year: 2020
+doi: "10.1109/SMART-TECH49988.2020.00043"
 bibtex: |
-  @article{gaffar2024ifaip,
-    title   = {IF-AIP: A machine learning method for the identification of anti-inflammatory peptides},
-    author  = {Gaffar, Saima and Hassan, Mir Tanveerul and ...},
-    journal = {Computers in Biology and Medicine},
-    year    = {2024},
-    doi     = {10.1016/j.compbiomed.2023.107724}
+  @inproceedings{noor2020hybrid,
+    title={Hybrid image fusion method based on discrete wavelet transform (DWT), principal component analysis (PCA) and guided filter},
+    author={Noor, Andleeb and Gaffar, Saima and Hassan, MT and Junaid, Mir and Mir, Aabid and Kaur, Amandeep},
+    booktitle={2020 First International Conference of Smart Systems and Emerging Technologies (SMARTTECH)},
+    pages={138--143},
+    year={2020},
+    organization={IEEE}
   }
 ---
+
 
 
