@@ -1,6 +1,6 @@
 ---
-title: "TFProtBert: Detection of Transcription Factors Binding to Methylated DNA Using ProtBert Latent Space Representation"
-collection: publications
+title: "Fine-Tuning Protein Language Models Enhances the Identification and Interpretation of the Transcription Factors"
+collection: preprint
 category: manuscripts
 permalink: 'https://www.biorxiv.org/content/10.1101/2025.11.27.691010v1'
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
@@ -12,4 +12,5 @@ venue: 'bioRxiv'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
 
