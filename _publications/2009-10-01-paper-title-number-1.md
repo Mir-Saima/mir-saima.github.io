@@ -1,16 +1,21 @@
 ---
 title: "Fine-Tuning Protein Language Models Enhances the Identification and Interpretation of the Transcription Factors"
 collection: preprint
-category: manuscripts
 permalink: 'https://www.biorxiv.org/content/10.1101/2025.11.27.691010v1'
-#excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-#date: 2009-10-01
-venue: 'bioRxiv'
-#slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-#paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-#bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-#citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
----
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+bibtex: |
+@article {Hassan2025.11.27.691010,
+	author = {Hassan, Mir Tanveerul and Gaffar, Saima and Zahid, Hamza and Lee, Sang Jun},
+	title = {Fine-Tuning Protein Language Models Enhances the Identification and Interpretation of the Transcription Factors},
+	elocation-id = {2025.11.27.691010},
+	year = {2025},
+	doi = {10.1101/2025.11.27.691010},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Transcription factors (TFs) are pivotal regulators of gene expression and play essential roles in diverse cellular activities. The three-dimensional organization of the genome and transcriptional regulation are predominantly orchestrated by TFs. By recruiting the transcriptional machinery to gene enhancers or promoters, TFs can either activate or repress transcription, thereby controlling gene activity and various biological pathways. Accurate identification of TFs is vital for elucidating gene regulatory mechanisms within cells. However, experimental identification remains labor-intensive and time-consuming, highlighting the necessity for efficient computational approaches. In this study, we present a two-layer predictive framework utilizing protein language models (pLMs) via full fine-tuning and parameter-efficient fine-tuning. The initial layer robustly classifies and identifies transcription factors, while the subsequent layer predicts TFs with a binding preference for methylated DNA (TFPMs). Our approach further incorporates attention weights and protein sequence motifs to enhance interpretability and predictive capability. By leveraging attention mechanisms, we highlight biologically relevant regions of the protein sequences that contribute most strongly to the predictions. Additionally, motif analysis facilitates the identification of conserved sequence patterns that are critical for TF recognition and function. Across both TF and TFPM classification tasks, the inclusion of these features allowed our methods to consistently surpass contemporary models, as demonstrated by independent test results.KeypointsDeveloped a two-layer predictive framework using protein language models (pLMs) with both full fine-tuning and parameter-efficient fine-tuning methods.The first layer accurately identifies transcription factors (TFs), and the second layer predicts TFs with binding preference for methylated DNA (TFPMs).Integrated attention weights and protein sequence motifs to enhance model interpretability by highlighting biologically relevant sequence regions and conserved patterns.Achieved superior performance compared to state-of-the-art methods, validated by independent testing.Mir Tanveerul Hassan obtained his M.Tech. in Computer Science from the University of Kashmir, India, in 2020, and later earned his Ph.D. in Electronics and Information Engineering from Jeonbuk National University, Jeonju, South Korea. He is currently serving as a postdoctoral fellow at the Jeonbuk RICE Intelligence Innovation Research Center. His research interests encompass computational biology, bioinformatics, and pattern recognition.Saima Gaffar received her B.Tech. and M.Tech. degrees in Computer Science from the University of Kashmir, Srinagar, India, and her Ph.D. in Electronics and Information Engineering from Jeonbuk National University, South Korea. Her research focuses on bioinformatics, computational biology, deep learning, and image processing.Hamza Zahid received his B.S. degree in Mechatronics Engineering from the University of Engineering and Technology, Peshawar, Pakistan. He is currently pursuing the integrated M.S. and Ph.D. degrees in Electronics and Information Engineering at Jeonbuk National University, South Korea. His primary research interests include the applications of artificial intelligence in computational drug discovery.Sang Jun Lee received his B.S., M.S., and Ph.D. degrees in Electrical Engineering from POSTECH, South Korea. Following his doctoral studies, he worked as a senior researcher at the Samsung Advanced Institute of Technology (SAIT). He is currently an Associate Professor in the Division of Electronics and Information Engineering at Jeonbuk National University, South Korea. His research interests include image analysis, deep learning, and medical image processing.Competing Interest StatementThe authors have declared no competing interest.Institute of Information \&amp; Communications Technology Planning \&amp; Evaluation (IITP), IITP-2025-RS-2024-00439292},
+	URL = {https://www.biorxiv.org/content/early/2025/11/28/2025.11.27.691010},
+	eprint = {https://www.biorxiv.org/content/early/2025/11/28/2025.11.27.691010.full.pdf},
+	journal = {bioRxiv}
+}
+
+
 
 
