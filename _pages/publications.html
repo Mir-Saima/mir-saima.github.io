@@ -11,16 +11,21 @@ author_profile: true
 {% assign pubs = site.publications | sort: 'year' | reverse %}
 {% for pub in pubs %}
   <li>
-    {% if pub.bibtex %}
-      <pre><code>{{ pub.bibtex | escape }}</code></pre>
-    {% else %}
-      {{ pub.authors }}.
-      <strong>{{ pub.title }}</strong>.
-      {% if pub.venue %}<em>{{ pub.venue }}</em>,{% endif %}
+    <p>
+      {% if pub.authors %}{{ pub.authors }}.{% endif %}
+      {% if pub.title %} <strong>{{ pub.title }}</strong>.{% endif %}
+      {% if pub.venue %} <em>{{ pub.venue }}</em>.{% endif %}
       {% if pub.year %} {{ pub.year }}.{% endif %}
       {% if pub.doi %}
         DOI: <a href="{{ pub.doi }}">{{ pub.doi }}</a>.
       {% endif %}
+    </p>
+
+    {% if pub.bibtex %}
+      <details>
+        <summary>BibTeX</summary>
+        <pre><code>{{ pub.bibtex | escape }}</code></pre>
+      </details>
     {% endif %}
   </li>
 {% endfor %}
