@@ -1,68 +1,68 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Saima Gaffar",
+    "email": "saimagaffar@jbnu.ac.kr",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://mir-saima.github.io",
+    "summary": "Jeonbuk National University.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "address": "Jeonju",
+      "postalCode": "54906",
+      "city": "Jeollabuk-do",
+      "countryCode": "South Korea",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=FfgX-YoAAAAJ&hl=en"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0009-0009-2252-1935"
       },
       {
         "network": "GitHub",
         "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://github.com/Mir-Saima"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "institution": "Jeonbuk National University",
+      "area": "Ph.D in Electronics and Information Engineering",
+      "studyType": "Bioinformatics",
+      "startDate": "2021",
+      "endDate": "2015",
+      "gpa": 3.87/4.5,
+      "courses": [Python, Advanced topics in deep learning, Bioinformatics Application, Advanced Intelligent Programming, AI based Biology Engineering]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "University of Kashmir, Jammu & Kashmir",
+      "area": "M.Tech. in Computer Science",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "startDate": "2017",
+      "endDate": "2020",
+      "gpa": 8.39/10,
+      "courses": [Machine Learning, Image Processing, Engineering Mathematics, Database Management Systems, Data Strcture using C++, Real Time OS, Parallel Computing]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
+      "institution": "University of Kashmir, Jammu & Kashmir",
+      "area": "B.Tech. Computer Science & Engineering",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "startDate": "2012",
+      "endDate": "2017",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [Jupyter, Conda, Git, Linux, Python, TensorFlow/Keras, HuggingFace Transformers, Scikit-learn],
+  "languages": [English, Kashmiri, Urdu, Hindi],
+  "interests": [Cooking, reading fiction],
   "references": [],
   "publications": [
     {
@@ -150,3 +150,4 @@
     }
   ]
 }
+
