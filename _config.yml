@@ -25,10 +25,10 @@ author:
   avatar           : "profile.png"
   name             : "Saima Gaffar"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  #location         : #"Earth"
+  bio              : "Researcher in bioinformatics and machine learning"
+  location         : "South Korea"
   employer         : "Jeonbuk National University"
-  uri              : # URL
+  uri              : https://mir-saima.github.io
   email            : "saimagaffar@jbnu.ac.kr" 
 
   # Academic websites
@@ -65,7 +65,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : saima-mir-094543bb
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -359,6 +359,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
 
