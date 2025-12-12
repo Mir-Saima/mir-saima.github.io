@@ -12,8 +12,9 @@ I completed my Ph.D. at Jeonbuk National University (South Korea), where I desig
 
 Before my Ph.D., I earned both of my degrees from the University of Kashmir (India):
 
-*M.Tech in Computer Science, where I deepened my understanding of machine learning, deep learning, and computational modeling. During this period, I completed my thesis on image segmentation, which introduced me to applying AI techniques to real-world pattern recognition problems.
-*B.Tech in Computer Science & Engineering, which helped me build a strong foundation in core computer science concepts, programming, algorithms, and system design. It was during this time that I first developed an interest in using computational methods to address scientific challenges.
+* M.Tech in Computer Science, where I deepened my understanding of machine learning, deep learning, and computational modeling. During this period, I completed my thesis on image segmentation, which introduced me to applying AI techniques to real-world pattern recognition problems.
+
+* B.Tech in Computer Science & Engineering, which helped me build a strong foundation in core computer science concepts, programming, algorithms, and system design. It was during this time that I first developed an interest in using computational methods to address scientific challenges.
 
 My broader research goal is to build interpretable, efficient, and biologically meaningful computational tools that accelerate discovery in genomics, proteomics, and molecular medicine.
 
@@ -24,6 +25,7 @@ I build computational frameworks in bioinformatics with a strong emphasis on mac
 🧪 Peptide Function Prediction, including activity, mechanisms, and target specificity
 
 Feel free to explore my publications and CV to learn more about my work, collaborations, and future research interests.
+
 
 
 
