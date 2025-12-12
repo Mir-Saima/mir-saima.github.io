@@ -19,6 +19,7 @@ Before my Ph.D., I earned both of my degrees from the University of Kashmir (Ind
 My broader research goal is to build interpretable, efficient, and biologically meaningful computational tools that accelerate discovery in genomics, proteomics, and molecular medicine.
 
 I build computational frameworks in bioinformatics with a strong emphasis on machine learning, deep learning, and protein language models. My work revolves around:
+
 🚀 Transcription Factor Identification & Interpretation using transformer-based architectures
 
 🧬 Protein Language Models (pLMs) for extracting rich, biologically meaningful sequence embeddings
@@ -28,6 +29,7 @@ I build computational frameworks in bioinformatics with a strong emphasis on mac
 🧪 Peptide Function Prediction, including activity, mechanisms, and target specificity
 
 Feel free to explore my publications and CV to learn more about my work, collaborations, and future research interests.
+
 
 
 
